@@ -2,14 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    margin: 0px;
 }
 
 .header-1 {
     display: flex;
+    padding-left: 150px;
+    align-items: center;
+    padding-right: 150px;
 }
 
 .header-2 {
     display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .top-one {
@@ -18,4 +24,18 @@ body {
 
 .lajcior {
     color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+b {
+    font-size: 24px;
+}
+
+#logo {
+    flex-grow: 1;
 }
