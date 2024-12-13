@@ -40,14 +40,14 @@ a {
     flex-grow: 1;
     font-size: 24px;
     flex-shrink: 0;
-    flex-basis: 420px;
+    flex-basis: 380px;
 }
 
 .links {
     display: flex;
     gap: 24px;
-    flex-shrink: 0;
-    flex-basis: 500px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
     padding: 0;
     justify-content: flex-end;
 }
@@ -112,10 +112,10 @@ a {
 }
 
 .photo {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border: 2px solid #3882F6;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .pic-text {
@@ -124,10 +124,21 @@ a {
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .image-desc {
+    margin-top: 4px;
     display: flex;
     width: 230px;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+}
+
+#second-header {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
