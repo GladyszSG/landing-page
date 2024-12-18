@@ -101,6 +101,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .square {
@@ -124,8 +126,8 @@ a {
     flex: 1;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .image-desc {
@@ -141,4 +143,27 @@ a {
 #second-header {
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+.third-part {
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    flex-shrink: 0;
+    min-width: 350px;
+}
+
+#signature {
+    align-self: flex-end;
 }
