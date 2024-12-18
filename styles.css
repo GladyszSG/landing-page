@@ -212,3 +212,15 @@ a {
 .button-helper {
     padding-left: 100px;
 }
+
+.finito {
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
