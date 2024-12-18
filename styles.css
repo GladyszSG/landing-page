@@ -167,3 +167,48 @@ a {
 #signature {
     align-self: flex-end;
 }
+
+.fourth {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tło {
+    background-color: #3882F6;
+    border-radius: 4px;
+    display: flex;
+    flex-shrink: 0;
+    width: 650px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: flex-end;
+}
+
+#call-to-action {
+    color: #F9FAF8;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up-2 {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 26px;
+    font-weight: bold;
+}
+
+.button-helper {
+    padding-left: 100px;
+}
